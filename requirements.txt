@@ -1,0 +1,9 @@
+streamlit
+openai
+google-generativeai
+moviepy
+pydub
+python-dotenv
+stripe
+requests
+imageio-ffmpeg
