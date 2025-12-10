@@ -1,9 +1,17 @@
 streamlit
-openai
+openai>=1.35.0
 google-generativeai
-moviepy
-pydub
-python-dotenv
-stripe
-requests
+
+# Video processing
+moviepy==1.0.3
 imageio-ffmpeg
+
+# Env & HTTP
+python-dotenv
+requests
+
+# Optional: AI motion backend (Pika via FAL.ai)
+fal-client
+
+# Image handling (Pillow 10+ is OK, we monkey-patch ANTIALIAS in code)
+Pillow
