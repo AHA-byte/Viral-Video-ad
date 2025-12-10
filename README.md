@@ -1,6 +1,14 @@
 First check the demo video in demo folder, outputs mp4 and voiceover in output folder, made an ad for cocacola. 
 
-moviepy v2 was a beotch to deal with and removed too much to I am using moviepy==1.0.3
+moviepy v2 was a beotch to deal with and removed too much(moviepy.editor import error, ImageClip, resize, fx, vfx, crossfadein, CompositeVideoClip time_slice ) 
+Pillow removed Image.ANTIALIAS
+
+so I am using moviepy==1.0.3
+base.resize(scale) and zoomed = base.resize(zoom_factor)
+Ken Burns zoom-in per image
+LANCZOS
+
+recomended to use with gpt-image-1, they wanted to look at my face for organization verification so I skipped that.
 
 add your keys
 OPENAI_API_KEY=your_openai_key
